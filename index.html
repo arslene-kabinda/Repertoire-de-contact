@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repertoire de contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="big_contenaire">
+      
+  
+       <div class="contenaire " id="formulaire">
+            <h1>
+                Répertoire de contact 
+            </h1>
+            
+            <div class="form_g">
+
+                <div class="form" id="form1">
+                    <div id="form1_title">
+                    <h2>Formulaire de contact</h2>
+                    </div>
+                    <div id="form1_body">
+                        <form action="" id="contactForm">
+                            <div class="section_1">
+                                <div>
+                                    <label for="prenom">Prénom</label>
+                                    <input id="prenom" type="text" class="input" name="Prenom" required>
+                                </div> 
+                                
+                                <div>
+                                    <label for="nom">Nom</label>
+                                    <input id="nom" type="text" class="input" name="nom">
+                                </div>
+                                
+                                <div>
+                                    <label for="groupe">Groupe</label>
+                                    <select id="groupe" name=""  id="selectgroupe">
+                                        <option value=""></option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+
+                                </div>
+                                
+                                <div>
+                                    <label>Bio</label>
+                                    <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+                                </div>
+                            </div>    
+                            <div class="img_preview">
+                                    <!-- <label for="file">fichier</label> -->
+                                    <input id="file" type="file" class="input" name="file"><label for="file" id="label" >choisir un fichier</label>
+                                    <img src="images/iconfinder_icon-ios7-contact-outline_211731.png" alt="avatar" id="avatar">
+                            </div>
+                            
+                            <div class="btn">
+                                    <div >
+                                        <input type="submit" value="Créer" id="submitContact">
+                                    </div>
+                                    
+                                    <div >
+                                        <input type="reset" value="Réinit" id="btn_réinit">
+                                    </div>
+                            </div>
+                            
+                                
+                        </form>
+                
+                    </div>
+                </div>    
+
+                <div class="form" id="form2">
+                    <div id="form2-title">
+                        <h2>Liste de contact</h2>
+                    </div>
+                    <div class="card">
+                        <div class="form2_body">
+                            <!-- <div class="img-card">
+                                <img src="images/jl.png" alt="">   
+                            </div>
+                            <div class="contact-info">
+                                <p>Nom et Prenom</p>
+                                <p>groupe</p>
+                                <p>bio</p>
+                            
+                            </div>
+                            <div class="button-delete">
+                            <p><input type="submit" value="X" id="btn_delete"></p>  
+                            </div> -->
+            
+                            </div>
+                </div>
+           </div>
+        </div>
+
+       </div>
+
+   </div>
+<script src="vanilla.js"></script>
+</body>
+</html>
